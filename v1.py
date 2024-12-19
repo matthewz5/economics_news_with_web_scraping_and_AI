@@ -101,7 +101,7 @@ for id, row in df_news.iterrows():
 list_news = list(df_news['Title'])
 text_news = list(df_news['Full Text'])
 
-genai.configure(api_key="AIzaSyAAKQ_j3hHwcFS4T0-TzDcbUW4QEv_5sZM")
+genai.configure(api_key="...")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
