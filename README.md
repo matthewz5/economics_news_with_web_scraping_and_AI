@@ -1,5 +1,5 @@
 
-This project is developed based on an initial solution by [@cientistadabolsa](https://www.instagram.com/cientistadabolsa/) presented in his 2024 masterclass for the course "Laboratório da Bolsa", [click here]().
+This project is developed based on an initial solution by [@cientistadabolsa](https://www.instagram.com/cientistadabolsa/) presented in his 2024 masterclass for the course "Laboratório da Bolsa", [click here](https://github.com/matthewz5/economics_news_with_web_scraping_and_AI/blob/main/initial_solution_by_%40cientistadabolsa.py).
 
 [...]
 
