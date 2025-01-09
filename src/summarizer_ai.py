@@ -1,6 +1,6 @@
 import google.generativeai as genai # type: ignore
 
-def summarize_news(df, api_key):
+def summarize_news(df, api_key, path):
 
     genai.configure(api_key=api_key)
 
@@ -12,4 +12,9 @@ def summarize_news(df, api_key):
 
     model = genai.GenerativeModel("gemini-1.5-flash")
 
-    return model.generate_content(prompt)
+    response = model.generate_content(prompt)
+
+    with open(path, "w", encoding="utf-8") as file:
+        file.write(response.text)
+
+    return response

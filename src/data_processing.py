@@ -1,7 +1,7 @@
 import pandas as pd # type: ignore
 from datetime import datetime, timedelta
 
-def process_news_data(news):
+def process_news_data(news, path):
 
     df = pd.DataFrame(news)
 
@@ -14,5 +14,7 @@ def process_news_data(news):
     df = df.drop(df[(df['Publish Date'].isna()) | (df['Publish Date'] <= pd.to_datetime(datetime.now().date() - timedelta(days=6)))].index).reset_index(drop=True)
 
     df.sort_values(by='Publish Date', ascending=False)
+
+    df.to_excel(path)
 
     return df
