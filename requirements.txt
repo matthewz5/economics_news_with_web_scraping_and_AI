@@ -3,3 +3,5 @@ requests
 beautifulsoup4
 google-generativeai
 openpyxl
+fpdf
+mistletoe
