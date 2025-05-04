@@ -7,7 +7,7 @@ The project code realize web scraping on [Suno Notícias](https://www.suno.com.b
 - **Publish date**,
 - **Full text**.
 
-The [Google Gemini model with API 1.5 Flash](https://ai.google.dev/gemini-api/docs?hl=pt-br) are used to receive the news title and full text to generate a economic's news summary, following the prompt:
+The [Google Gemini model with API 2.0 Flash](https://ai.google.dev/gemini-api/docs?hl=pt-br) are used to receive the news title and full text to generate a economic's news summary, following the prompt:
 
 - "Dadas as seguintes notícias, por favor, forneça um resumo geral separado por: MACROECONOMIA; AÇÕES; FIIS; INTERNACIONAL; DEMAIS."
 

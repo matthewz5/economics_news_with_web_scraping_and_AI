@@ -15,4 +15,4 @@ print("Summarizing news...")
 summary = summarize_news(df, API_KEY, SUMMARY_MD_PATH)
 
 print("Sending news email...")
-send_email(f"Resumo de notícias econômicas semanal SUNO", "mail here", summary.text)
+send_email(f"Resumo de notícias econômicas semanal SUNO", "enter_mail_here", summary.text)
